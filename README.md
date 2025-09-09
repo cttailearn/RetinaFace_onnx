@@ -54,7 +54,11 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 
 ## 使用方法
 
-### 第一步：模型转换（如果您有PyTorch模型）
+### 第一步：模型转换
+下载模型
+```bash
+modelscope download --model iic/cv_resnet50_face-detection_retinaface --local_dir ./model
+```
 
 #### 基本语法
 ```bash
