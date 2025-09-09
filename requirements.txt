@@ -1,0 +1,28 @@
+# RetinaFace ONNX 转换与检测工具依赖包
+
+# 核心依赖
+numpy>=1.19.0
+opencv-python>=4.5.0
+onnxruntime>=1.12.0
+
+# PyTorch相关（模型转换需要）
+torch>=1.9.0
+torchvision>=0.10.0
+
+# 可选GPU加速
+# onnxruntime-gpu>=1.12.0  # 取消注释以启用GPU推理加速
+
+# 开发和测试依赖
+# pytest>=6.0.0  # 取消注释以启用测试框架
+# pillow>=8.0.0  # 取消注释以支持更多图像格式
+
+# 系统依赖说明
+# 本项目需要以下Python标准库模块（无需额外安装）：
+# - os
+# - sys
+# - time
+# - json
+# - argparse
+# - pathlib
+# - typing
+# - collections
